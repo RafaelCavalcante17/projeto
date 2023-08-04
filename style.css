@@ -57,6 +57,8 @@ body * {
   margin-top: 8px;
 }
 
+/* button */
+
 #switch {
   position: relative;
   width: 64px;
@@ -74,7 +76,7 @@ body * {
 
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   z-index: 1;
   transform: translatey(-50%);
 
@@ -82,7 +84,7 @@ body * {
 }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards;
+  animation: slide-in 0.4s forwards;
 }
 
 #switch button:hover{
@@ -182,7 +184,7 @@ footer {
 
 
 /* animation */
-@Rafael_Cavalcante slide-in {
+@keyframes slide-in {
   from {
     left: 0;
   }
@@ -191,9 +193,9 @@ footer {
   }
 }
 
-@Rafael_Cavalcante slide-back {
+@keyframes  slide-back {
   from {
-    left: 50%;
+    left:50% ;
   }
   to {
     left: 0;
