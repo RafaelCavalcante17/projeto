@@ -18,7 +18,7 @@ Progarama exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolo
 <br>
 
 <p align="center">
-  <img alt="projeto Devlinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto Devlinks" src="preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
